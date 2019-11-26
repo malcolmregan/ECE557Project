@@ -22,8 +22,6 @@
 (define SDC_Doping @SDC_Doping@)
 ;(define B_Doping 1e15)
 (define B_Doping @B_Doping@)
-110 3 3D FinFET with L
-g = 15 nm and Lg = 10 nm Simulation
 ; ----------------------- (2) Structure ----------------------;
 "ABA"
 ;--- Source contact and Source ---;
