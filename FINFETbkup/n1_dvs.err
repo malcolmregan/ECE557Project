@@ -1,0 +1,8 @@
+libGL error: unable to load driver: swrast_dri.so
+libGL error: failed to load driver: swrast
+libGL error: unable to load driver: swrast_dri.so
+libGL error: failed to load driver: swrast
+SCHEME COMMAND 24
+*** Error
+sde:eval: unbound variable: 3D
+

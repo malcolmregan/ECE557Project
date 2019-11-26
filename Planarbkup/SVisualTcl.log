@@ -1,0 +1,85 @@
+###########################################
+# Sentaurus Visual I-2013.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 24, 2019. 17:07:55.
+# Version: 22.0.13 (1.13)
+# Mode: Interactive (GUI).
+# Hostname: grendel26.ece.ncsu.edu.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 3.10.0-1062.1.2.el7.x86_64.
+###########################################
+
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n1_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n20_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n27_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n35_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n42_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n49_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n3_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n3_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n3_des.tdr
+create_plot -dataset n3_des_2
+select_plots {Plot_n3_des_2}
+#-> Plot_n3_des_2
+#-> Plot_n3_des_2
+#-> n3_des_2
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n26_des.plt
+#-> n26_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n26_des.tdr
+create_plot -dataset n26_des_2
+select_plots {Plot_n26_des_2}
+#-> Plot_n26_des_2
+#-> Plot_n26_des_2
+#-> n26_des_2
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n33_des.plt
+#-> n33_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n33_des.tdr
+create_plot -dataset n33_des_2
+select_plots {Plot_n33_des_2}
+#-> Plot_n33_des_2
+#-> Plot_n33_des_2
+#-> n33_des_2
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n41_des.plt
+#-> n41_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n41_des.tdr
+create_plot -dataset n41_des_2
+select_plots {Plot_n41_des_2}
+#-> Plot_n41_des_2
+#-> Plot_n41_des_2
+#-> n41_des_2
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n48_des.plt
+#-> n48_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n48_des.tdr
+create_plot -dataset n48_des_2
+select_plots {Plot_n48_des_2}
+#-> Plot_n48_des_2
+#-> Plot_n48_des_2
+#-> n48_des_2
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n55_des.plt
+#-> n55_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n55_des.tdr
+create_plot -dataset n55_des_2
+select_plots {Plot_n55_des_2}
+#-> Plot_n55_des_2
+#-> Plot_n55_des_2
+#-> n55_des_2
+select_plots {Plot_n3_des_2}
+#-> Plot_n3_des_2
+select_plots {Plot_n41_des_2}
+#-> Plot_n41_des_2
+select_plots {Plot_n41_des_2 Plot_n33_des_2}
+#-> Plot_n33_des_2 Plot_n41_des_2
+select_plots {Plot_n33_des_2 Plot_n41_des_2 Plot_n55_des_2}
+#-> Plot_n33_des_2 Plot_n41_des_2 Plot_n55_des_2
+select_plots {Plot_n41_des_2}
+#-> Plot_n41_des_2
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -plot Plot_1 -dataset {n3_des n26_des n33_des n41_des n48_des n55_des} -axisX {G OuterVoltage} -axisY {D TotalCurrent}
+#-> Curve_1 Curve_2 Curve_3 Curve_4 Curve_5 Curve_6
+exit 0

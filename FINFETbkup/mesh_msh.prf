@@ -1,0 +1,2 @@
+set WB_tool(mesh,input,commands,user) 0
+set WB_tool(mesh,input,boundary,user) 0

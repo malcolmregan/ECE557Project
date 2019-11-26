@@ -1,0 +1,37 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Tue Nov 26 13:11:51 2019
+
+# --- simulation flow
+sde sde "" {}
+sde C_Doping "1e17" {1e17}
+sde SD_Doping "8e19" {8e19}
+sde SDC_Doping "8e19" {8e19}
+sde B_Doping "5e18" {5e18}
+mesh mesh "" {}
+sdevice sdevice "" {}
+sdevice WK "4.43" {4.43}
+sdevice Vg_start "-0.5" {-0.5}
+sdevice Vg "1.5" {1.5}
+sdevice Vd "1" {1}
+# --- variables
+# --- scenarios and parameter specs
+scenario default C_Doping ""
+scenario default SD_Doping ""
+scenario default SDC_Doping ""
+scenario default B_Doping ""
+scenario default WK ""
+scenario default Vg_start ""
+scenario default Vg ""
+scenario default Vd ""
+# --- simulation tree
+0 7 0 {} {default} 0
+1 6 7 {1e17} {default} 0
+2 5 6 {8e19} {default} 0
+3 4 5 {8e19} {default} 0
+4 1 4 {5e18} {default} 0
+5 8 1 {} {default} 0
+6 12 8 {} {default} 0
+7 11 12 {4.43} {default} 0
+8 10 11 {-0.5} {default} 0
+9 9 10 {1.5} {default} 0
+10 3 9 {1} {default} 0

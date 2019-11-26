@@ -1,0 +1,26 @@
+00:08:42 Nov 25 2019 <Planar2> submitted to the batch system
+00:08:43 Nov 25 2019     job 1 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n1_dvs.cmd"
+00:09:37 Nov 25 2019 +++ job 1 <sde> done: exit(0)
+00:09:38 Nov 25 2019     job 20 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n20_dvs.cmd"
+00:10:19 Nov 25 2019 +++ job 20 <sde> done: exit(0)
+00:10:20 Nov 25 2019     job 27 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n27_dvs.cmd"
+00:10:55 Nov 25 2019 +++ job 27 <sde> done: exit(0)
+00:10:57 Nov 25 2019     job 56 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n56_dvs.cmd"
+00:11:55 Nov 25 2019 +++ job 56 <sde> done: exit(0)
+00:11:56 Nov 25 2019     job 15 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+00:12:24 Nov 25 2019 +++ job 15 <snmesh> done: exit(0)
+00:12:25 Nov 25 2019     job 21 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+00:12:27 Nov 25 2019 +++ job 21 <snmesh> done: exit(0)
+00:12:28 Nov 25 2019     job 28 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+00:12:31 Nov 25 2019 +++ job 28 <snmesh> done: exit(0)
+00:12:32 Nov 25 2019     job 57 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+00:12:34 Nov 25 2019 +++ job 57 <snmesh> done: exit(0)
+00:12:35 Nov 25 2019     job 3 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp3_des.cmd"
+00:13:01 Nov 25 2019 +++ job 3 <sdevice> done: exit(0)
+00:13:02 Nov 25 2019     job 26 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp26_des.cmd"
+00:13:36 Nov 25 2019 +++ job 26 <sdevice> done: exit(0)
+00:13:37 Nov 25 2019     job 33 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp33_des.cmd"
+00:13:48 Nov 25 2019 +++ job 33 <sdevice> done: exit(0)
+00:13:49 Nov 25 2019     job 62 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp62_des.cmd"
+00:14:03 Nov 25 2019 +++ job 62 <sdevice> done: exit(0)
+00:14:05 Nov 25 2019 <Planar2> done (323 sec)

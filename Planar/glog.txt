@@ -1,0 +1,304 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version I-2013.12                           ***
+***                            (1.7, RHEL64)                             ***
+***                                                                      ***
+***                Copyright (c) 1994-2013 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'grendel26.ece.ncsu.edu' by user 'mjregan2'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 17376 -q local:default -e remaining /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2'
+Current directory '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar'
+Some relevant environment variables:
+	STROOT=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus
+	STRELEASE=current
+	STROOT_LIB=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib
+	STDB=/afs/unity.ncsu.edu/users/m/mjregan2/project
+	DATEX=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:13.0
+
+Starting swblm daemon...OK
+Project '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2'
+Loading global tool database '/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/afs/unity.ncsu.edu/users/m/mjregan2/project/gpref2_mjregan2.I-2013.12'...
+Loading preferences '/afs/unity.ncsu.edu/users/m/mjregan2/project/gpref2_mjregan2.I-2013.12'...
+00:08:42 Nov 25 2019 <Planar2> submitted to the batch system
+Loading global queue configuration file '/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/queues/gqueues.dat'...ok
+Loading project tree '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gtree.dat'
+Loading project variables '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par
+PREPROCESSING STEP 2:
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd fornode 1
++++Node successfully preprocessed+++
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd fornode 3
+'@tdr@' creates dependences with the node(s) '15'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par fornode 3
++++Node successfully preprocessed+++
+The node '3' has dependencies to the node(s) '15'
++++Node successfully preprocessed+++
+'@commands@' creates dependences with the node(s) '1'
+'@tdr@' creates dependences with the node(s) '1'
+'@tdrboundary@' creates dependences with the node(s) '1'
+The node '15' has dependencies to the node(s) '1'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd fornode 20
++++Node successfully preprocessed+++
++++Node successfully preprocessed+++
+'@commands@' creates dependences with the node(s) '20'
+'@tdr@' creates dependences with the node(s) '20'
+'@tdrboundary@' creates dependences with the node(s) '20'
+The node '21' has dependencies to the node(s) '20'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd fornode 26
+'@tdr@' creates dependences with the node(s) '21'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par fornode 26
++++Node successfully preprocessed+++
+The node '26' has dependencies to the node(s) '21'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd fornode 27
++++Node successfully preprocessed+++
++++Node successfully preprocessed+++
+'@commands@' creates dependences with the node(s) '27'
+'@tdr@' creates dependences with the node(s) '27'
+'@tdrboundary@' creates dependences with the node(s) '27'
+The node '28' has dependencies to the node(s) '27'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd fornode 33
+'@tdr@' creates dependences with the node(s) '28'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par fornode 33
++++Node successfully preprocessed+++
+The node '33' has dependencies to the node(s) '28'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd fornode 56
++++Node successfully preprocessed+++
++++Node successfully preprocessed+++
+'@commands@' creates dependences with the node(s) '56'
+'@tdr@' creates dependences with the node(s) '56'
+'@tdrboundary@' creates dependences with the node(s) '56'
+The node '57' has dependencies to the node(s) '56'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd fornode 62
+'@tdr@' creates dependences with the node(s) '57'
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par fornode 62
++++Node successfully preprocessed+++
+The node '62' has dependencies to the node(s) '57'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gexec.cmd"'
+Loading jobs and dependence graph '"/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gtree.dat'
+Loading project variables '/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sde_dvs.cmd
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice_des.cmd
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/sdevice.par
+WARNING: virtual node '4' excluded from preprocessing
+WARNING: virtual node '5' excluded from preprocessing
+WARNING: virtual node '9' excluded from preprocessing
+WARNING: virtual node '10' excluded from preprocessing
+WARNING: virtual node '11' excluded from preprocessing
+WARNING: virtual node '16' excluded from preprocessing
+WARNING: virtual node '17' excluded from preprocessing
+WARNING: virtual node '18' excluded from preprocessing
+WARNING: virtual node '19' excluded from preprocessing
+WARNING: virtual node '22' excluded from preprocessing
+WARNING: virtual node '23' excluded from preprocessing
+WARNING: virtual node '24' excluded from preprocessing
+WARNING: virtual node '25' excluded from preprocessing
+WARNING: virtual node '29' excluded from preprocessing
+WARNING: virtual node '30' excluded from preprocessing
+WARNING: virtual node '31' excluded from preprocessing
+WARNING: virtual node '32' excluded from preprocessing
+WARNING: virtual node '58' excluded from preprocessing
+WARNING: virtual node '59' excluded from preprocessing
+WARNING: virtual node '60' excluded from preprocessing
+WARNING: virtual node '61' excluded from preprocessing
+WARNING:no nodes could be retrieved
+PREPROCESSING STEP 2:
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/gexec.cmd"'
+>>>>>>>>>> job '1' status changed from 'none' to 'queued'
+>>>>>>>>>> job '3' status changed from 'none' to 'queued'
+Warning: node '4' not queued: node is virtual
+Warning: node '5' not queued: node is virtual
+Warning: node '9' not queued: node is virtual
+Warning: node '10' not queued: node is virtual
+Warning: node '11' not queued: node is virtual
+>>>>>>>>>> job '15' status changed from 'none' to 'queued'
+Warning: node '16' not queued: node is virtual
+Warning: node '17' not queued: node is virtual
+Warning: node '18' not queued: node is virtual
+Warning: node '19' not queued: node is virtual
+>>>>>>>>>> job '20' status changed from 'none' to 'queued'
+>>>>>>>>>> job '21' status changed from 'none' to 'queued'
+Warning: node '22' not queued: node is virtual
+Warning: node '23' not queued: node is virtual
+Warning: node '24' not queued: node is virtual
+Warning: node '25' not queued: node is virtual
+>>>>>>>>>> job '26' status changed from 'none' to 'queued'
+>>>>>>>>>> job '27' status changed from 'none' to 'queued'
+>>>>>>>>>> job '28' status changed from 'none' to 'queued'
+Warning: node '29' not queued: node is virtual
+Warning: node '30' not queued: node is virtual
+Warning: node '31' not queued: node is virtual
+Warning: node '32' not queued: node is virtual
+>>>>>>>>>> job '33' status changed from 'none' to 'queued'
+>>>>>>>>>> job '56' status changed from 'none' to 'queued'
+>>>>>>>>>> job '57' status changed from 'none' to 'queued'
+Warning: node '58' not queued: node is virtual
+Warning: node '59' not queued: node is virtual
+Warning: node '60' not queued: node is virtual
+Warning: node '61' not queued: node is virtual
+>>>>>>>>>> job '62' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 1 3 15 20 21 26 27 28 33 56 57 62
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '1' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n1_dvs.job
+local% submit job 1 for local execution
+>>>>>>>>>> job '1' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '20' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n20_dvs.job
+local% submit job 20 for local execution
+>>>>>>>>>> job '20' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '27' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n27_dvs.job
+local% submit job 27 for local execution
+>>>>>>>>>> job '27' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '56' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n56_dvs.job
+local% submit job 56 for local execution
+>>>>>>>>>> job '56' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 1 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '1' status changed from 'pending' to 'running'
+00:08:43 Nov 25 2019     job 1 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n1_dvs.cmd"
+>>>>>>>>>> job '1' status changed from 'running' to 'done'
+00:09:37 Nov 25 2019 +++ job 1 <sde> done: exit(0)
+>>>>>>>>>> job '15' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n15_msh.job
+local% submit job 15 for local execution
+>>>>>>>>>> job '15' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 20 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '20' status changed from 'pending' to 'running'
+00:09:38 Nov 25 2019     job 20 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n20_dvs.cmd"
+>>>>>>>>>> job '20' status changed from 'running' to 'done'
+00:10:19 Nov 25 2019 +++ job 20 <sde> done: exit(0)
+>>>>>>>>>> job '21' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n21_msh.job
+local% submit job 21 for local execution
+>>>>>>>>>> job '21' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 27 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '27' status changed from 'pending' to 'running'
+00:10:20 Nov 25 2019     job 27 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n27_dvs.cmd"
+>>>>>>>>>> job '27' status changed from 'running' to 'done'
+00:10:55 Nov 25 2019 +++ job 27 <sde> done: exit(0)
+>>>>>>>>>> job '28' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n28_msh.job
+local% submit job 28 for local execution
+>>>>>>>>>> job '28' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 56 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '56' status changed from 'pending' to 'running'
+00:10:57 Nov 25 2019     job 56 <sde> started on host 'grendel26.ece.ncsu.edu': "sde -l n56_dvs.cmd"
+>>>>>>>>>> job '56' status changed from 'running' to 'done'
+00:11:55 Nov 25 2019 +++ job 56 <sde> done: exit(0)
+>>>>>>>>>> job '57' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n57_msh.job
+local% submit job 57 for local execution
+>>>>>>>>>> job '57' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 15 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '15' status changed from 'pending' to 'running'
+00:11:56 Nov 25 2019     job 15 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+>>>>>>>>>> job '15' status changed from 'running' to 'done'
+00:12:24 Nov 25 2019 +++ job 15 <snmesh> done: exit(0)
+>>>>>>>>>> job '3' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n3_des.job
+local% submit job 3 for local execution
+>>>>>>>>>> job '3' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 21 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '21' status changed from 'pending' to 'running'
+00:12:25 Nov 25 2019     job 21 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+>>>>>>>>>> job '21' status changed from 'running' to 'done'
+00:12:27 Nov 25 2019 +++ job 21 <snmesh> done: exit(0)
+>>>>>>>>>> job '26' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n26_des.job
+local% submit job 26 for local execution
+>>>>>>>>>> job '26' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 28 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '28' status changed from 'pending' to 'running'
+00:12:28 Nov 25 2019     job 28 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+>>>>>>>>>> job '28' status changed from 'running' to 'done'
+00:12:31 Nov 25 2019 +++ job 28 <snmesh> done: exit(0)
+>>>>>>>>>> job '33' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n33_des.job
+local% submit job 33 for local execution
+>>>>>>>>>> job '33' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 57 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '57' status changed from 'pending' to 'running'
+00:12:32 Nov 25 2019     job 57 <snmesh> started on host 'grendel26.ece.ncsu.edu': "snmesh "
+>>>>>>>>>> job '57' status changed from 'running' to 'done'
+00:12:34 Nov 25 2019 +++ job 57 <snmesh> done: exit(0)
+>>>>>>>>>> job '62' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n62_des.job
+local% submit job 62 for local execution
+>>>>>>>>>> job '62' status changed from 'ready' to 'pending'
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 3 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '3' status changed from 'pending' to 'running'
+00:12:35 Nov 25 2019     job 3 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp3_des.cmd"
+>>>>>>>>>> job '3' status changed from 'running' to 'done'
+00:13:01 Nov 25 2019 +++ job 3 <sdevice> done: exit(0)
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 26 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '26' status changed from 'pending' to 'running'
+00:13:02 Nov 25 2019     job 26 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp26_des.cmd"
+>>>>>>>>>> job '26' status changed from 'running' to 'done'
+00:13:36 Nov 25 2019 +++ job 26 <sdevice> done: exit(0)
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 33 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '33' status changed from 'pending' to 'running'
+00:13:37 Nov 25 2019     job 33 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp33_des.cmd"
+>>>>>>>>>> job '33' status changed from 'running' to 'done'
+00:13:48 Nov 25 2019 +++ job 33 <sdevice> done: exit(0)
+local% exec "/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/bin/gjob -verbose -nice 19  -job 62 -swb_pid 17376 -gsub_pid 12147 -gsub_host grendel26.ece.ncsu.edu -gsub_port 33818 "/afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2""
+>>>>>>>>>> job '62' status changed from 'pending' to 'running'
+00:13:49 Nov 25 2019     job 62 <sdevice> started on host 'grendel26.ece.ncsu.edu': "sdevice pp62_des.cmd"
+>>>>>>>>>> job '62' status changed from 'running' to 'done'
+00:14:03 Nov 25 2019 +++ job 62 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done    : 1 3 15 20 21 26 27 28 33 56 57 62
+
+00:14:05 Nov 25 2019 <Planar2> done (323 sec)
+>>>>>> Writing to status file 323
+gsub exits with status 0
