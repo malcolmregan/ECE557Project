@@ -1,7 +1,7 @@
 File{
 Grid="@tdr@"
 Plot="@tdrdat@"
-Current="@plot"
+Current="@plot@"
 Output="@log@"
 }
 

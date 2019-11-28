@@ -1,0 +1,8 @@
+03:56:01 Nov 28 2019 <FINFET> submitted to the batch system
+03:56:02 Nov 28 2019     job 1 <sde> started on host 'grendel27.ece.ncsu.edu': "sde -l n1_dvs.cmd"
+03:56:56 Nov 28 2019 +++ job 1 <sde> done: exit(0)
+03:56:57 Nov 28 2019     job 8 <mesh> started on host 'grendel27.ece.ncsu.edu': "mesh n8_msh"
+03:57:00 Nov 28 2019 +++ job 8 <mesh> done: exit(0)
+03:57:01 Nov 28 2019     job 3 <sdevice> started on host 'grendel27.ece.ncsu.edu': "sdevice pp3_des.cmd"
+03:57:19 Nov 28 2019 +++ job 3 <sdevice> done: exit(0)
+03:57:21 Nov 28 2019 <FINFET> done (80 sec)

@@ -1,0 +1,74 @@
+###########################################
+# Sentaurus Visual I-2013.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 28, 2019. 03:11:01.
+# Version: 22.0.13 (1.13)
+# Mode: Interactive (GUI).
+# Hostname: grendel27.ece.ncsu.edu.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 3.10.0-1062.1.2.el7.x86_64.
+###########################################
+
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/FINFET/n8_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/FINFET/n3_des.tdr
+create_plot -dataset n3_des
+select_plots {Plot_n3_des}
+#-> Plot_n3_des
+#-> Plot_n3_des
+#-> n3_des
+rotate_plot -x -84.3929 -y -140.878 -z 3.09459 -absolute
+#-> 0
+set_field_prop -plot Plot_n3_des -geom n3_des Abs(eCurrentDensity-V) -show
+#-> 0
+rotate_plot -x -111.576 -y -140.156 -z -20.7128 -absolute
+#-> 0
+set_field_prop -plot Plot_n3_des -geom n3_des DopingConcentration -hide_bands
+#-> 0
+set_material_prop Contact -plot Plot_n3_des -geom n3_des -hide_bulk
+#-> 0
+set_material_prop Silicon -plot Plot_n3_des -geom n3_des -hide_bulk
+#-> 0
+set_material_prop SiO2 -plot Plot_n3_des -geom n3_des -hide_bulk
+#-> 0
+set_field_prop -plot Plot_n3_des -geom n3_des Abs(eGradQuasiFermi-V) -show
+#-> 0
+set_material_prop SiO2 -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop SiO2 -plot Plot_n3_des -geom n3_des -hide_field
+#-> 0
+set_material_prop Silicon -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop {Contact Silicon SiO2 DepletionRegion JunctionLine} -plot Plot_n3_des -geom n3_des -hide_bulk
+#-> 0
+set_material_prop Contact -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop SiO2 -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop Silicon -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop DepletionRegion -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop JunctionLine -plot Plot_n3_des -geom n3_des -show_bulk
+#-> 0
+set_material_prop Silicon -plot Plot_n3_des -geom n3_des -translucency_on
+#-> 0
+set_material_prop Contact -plot Plot_n3_des -geom n3_des -translucency_on
+#-> 0
+set_material_prop SiO2 -plot Plot_n3_des -geom n3_des -translucency_on
+#-> 0
+set_material_prop DepletionRegion -plot Plot_n3_des -geom n3_des -translucency_on
+#-> 0
+set_material_prop JunctionLine -plot Plot_n3_des -geom n3_des -translucency_on
+#-> 0
+set_field_prop -plot Plot_n3_des -geom n3_des Abs(eGradQuasiFermi-V) -hide
+#-> 0
+rotate_plot -x -95.1668 -y -124.361 -z 2.10982 -absolute
+#-> 0
+rotate_plot -x -102.897 -y -123.566 -z -9.66617 -absolute
+#-> 0
+rotate_plot -x -108.6 -y -52.7651 -z 6.77539 -absolute
+#-> 0
+rotate_plot -x -97.48 -y -47.528 -z -5.46691 -absolute
+#-> 0
+exit 0
