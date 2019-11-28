@@ -48,7 +48,7 @@
 ;gate oxidee
 (sdegeo:create-rectangle
    (position x2 y2 0)
-   (position x3 y3 0) "SiO2" "Gateoxide")
+   (position x3 y3 0) "HfO2" "Gateoxide")
    
 ; contact ;
 ;gate

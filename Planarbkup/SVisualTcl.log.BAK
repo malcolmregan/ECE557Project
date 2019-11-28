@@ -1,0 +1,91 @@
+###########################################
+# Sentaurus Visual I-2013.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 24, 2019. 19:27:17.
+# Version: 22.0.13 (1.13)
+# Mode: Interactive (GUI).
+# Hostname: grendel26.ece.ncsu.edu.
+# Machine: Linux, x86_64, amd64.
+# Kernel: 3.10.0-1062.1.2.el7.x86_64.
+###########################################
+
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n1_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n20_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n27_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n56_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n35_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n42_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n49_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n63_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n72_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n79_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n86_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n115_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n94_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n101_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n108_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n122_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n131_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n138_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n145_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n174_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n153_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n160_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n167_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n181_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n3_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n3_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n26_des.plt
+#-> n26_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n33_des.plt
+#-> n33_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n41_des.plt
+#-> n41_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n48_des.plt
+#-> n48_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n55_des.plt
+#-> n55_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n62_des.plt
+#-> n62_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n69_des.plt
+#-> n69_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n78_des.plt
+#-> n78_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n85_des.plt
+#-> n85_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n92_des.plt
+#-> n92_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n100_des.plt
+#-> n100_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n107_des.plt
+#-> n107_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n114_des.plt
+#-> n114_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n121_des.plt
+#-> n121_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n128_des.plt
+#-> n128_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n137_des.plt
+#-> n137_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n144_des.plt
+#-> n144_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n151_des.plt
+#-> n151_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n159_des.plt
+#-> n159_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n166_des.plt
+#-> n166_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n173_des.plt
+#-> n173_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n180_des.plt
+#-> n180_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/project/Planar2/n187_des.plt
+#-> n187_des
+create_curve -plot Plot_1 -dataset {n187_des n3_des n26_des n33_des n41_des n48_des n55_des n62_des n69_des n78_des n85_des n92_des n100_des n107_des n114_des n121_des n128_des n137_des n144_des n151_des n159_des n166_des n173_des n180_des} -axisX {G OuterVoltage} -axisY {D TotalCurrent}
+#-> Curve_1 Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7 Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15 Curve_16 Curve_17 Curve_18 Curve_19 Curve_20 Curve_21 Curve_22 Curve_23 Curve_24
+exit 0

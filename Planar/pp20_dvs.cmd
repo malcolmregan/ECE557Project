@@ -1,5 +1,0 @@
-Title "Untitled"
-
-Controls {
-}
-
