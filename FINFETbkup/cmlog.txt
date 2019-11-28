@@ -1,5 +1,5 @@
-DATE: 11/26/19 - 11/26/19 cmlog.txt
+DATE: 11/28/19 - 11/28/19 cmlog.txt
 
 This localhost (server) information:
-	Name:    grendel15.ece.ncsu.edu
-	Address: 152.14.98.67
+	Name:    grendel27.ece.ncsu.edu
+	Address: 152.14.98.59

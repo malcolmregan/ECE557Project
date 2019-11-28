@@ -1,14 +1,14 @@
 File{
-Grid="@tdr@"
-Plot="@tdrdat@"
-Current="@plot@"
-Output="@log@"
+Grid="n8_msh.tdr"
+Plot="n3_des.tdr"
+Current="n3_des.plt"
+Output="n3_des.log"
 }
 
 Electrode {
 { name="S" Voltage=0.0 }
 { name="D" Voltage=0.0 }
-{ name="G" Voltage=@Vg_start@ WorkFunction=@WK@}
+{ name="G" Voltage=-0.5 WorkFunction=4.43}
 { name="B" Voltage=0.0 }
 }
 
@@ -66,13 +66,13 @@ Coupled{ Poisson Electron Hole }
 Quasistationary(
 InitialStep=0.01 Increment=1.35
 MinStep=1e-5 MaxStep=0.2
-Goal{ Name="D" Voltage= @Vd@ }
+Goal{ Name="D" Voltage= 1 }
 ){ Coupled{ Poisson Electron Hole } }
 Quasistationary(
 InitialStep=1e-3 Increment=1.35
 MinStep=1e-5 MaxStep=0.05
-Goal{ Name="G" Voltage= @Vg@ }
+Goal{ Name="G" Voltage= 1.5 }
 ){ Coupled{ Poisson Electron Hole} }
 }
 
-#------------------------------ END -----------------------------------#
+

@@ -1,0 +1,108 @@
+****************************************************************************
+***                                 Mesh                                 ***
+***                          Version I-2013.12                           ***
+***                            (1.0, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 1994-2013                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+> Compiled Thu Aug 15 17:30:35 PDT 2013 on: tcadprod8
+> Running on: Linux grendel27.ece.ncsu.edu 3.10.0-1062.1.2.el7.x86_64 #1 SMP Mon Sep 16 14:19:51 EDT 2019 x86_64
+
+> Process ID: 4881
+> 
+> Flags used:
+> 
+> Reading Boundary from n8_bnd.tdr
+> Loaded 48 point(s), 9 region(s), 4 contact(s). done. Time: 0.041791 secs.
+> Statistics from input geometry:
+> 44 vertices, 82 edges, 48 faces, 15 elements (6 rectangles) (9 polyhedra)
+> 	6 2D elements
+> 	9 3D elements
+> Average edge length (std): 0.0148537 (0.161069)
+> Min edge length (56): 0.0005
+> 
+> Average volume (std): 2.683e-06 (2.05439e-05)
+> Min. element volume (9): 1.2e-07
+> 
+> Average connectivity: 3.72727
+> Max. connectivity (3): 5
+> 
+> Step sequence to perform: 
+> 	MLRefineOnSize-MLRefineGeometry
+> 
+> Refining on MaxElementSize ... Number of elements to check: 1
+> Number of elements to check: 538
+> done. Time: 0.220033 secs.
+> Fitting geometry ... Number of elements to check: 537
+> done. Time: 0.002358 secs.
+> Handling green elements ... Number of elements to check: 537
+> done. Time: 0.001671 secs.
+> Preparing data for output... Number of final elements 537
+> done. Time: 0.0725 secs.
+> 
+> Total time : 0.338353 secs.
+> Statistics before recovering the surface...:
+> 1073 vertices, 2722 edges, 2277 faces, 108 elements (103 rectangles) (5 polygons)
+> 	108 2D elements
+> Average edge length (std): 0.00356457 (0.0915509)
+> Min edge length (450): 0.0005
+> 
+> Average connectivity: 5.07363
+> Max. connectivity (9): 6
+> 
+> Setting up the surface... 
+> Building a Delaunay triangulation suitable for the Box Method... 
+  The input contains 1073 points.
+  Building a generic Delaunay triangulation of the input points...done.
+  Delaunizing the surface...done.
+  Optimizing ridges...done.
+  Optimizing the surface...done.
+  Building regions for the mesh elements...done.
+  Time: 0.239209 secs.
+#points: 1120
+#edges: 6441
+#faces: 10023
+# non Delaunay bulk faces: 0
+# non Delaunay internal boundary faces: 0 out of 725
+# non Delaunay constrained faces: 0 out of 2992
+# non Delaunay external boundary faces: 0 out of 1242
+# non Delaunay edges: 0
+#elements: 4955
+max #connections per point: 23
+done. Time: 0.038836 secs.
+The triangulation contains 1120 points and 4955 elements.
+Averaged edge length (std): 0.00463616 (0.156994)
+Minimum Edge Length (450) = 0.0005
+
+Average volume (std): 8.1221e-09 (5.41758e-07)
+Minimum volume (803) = 7.8125e-11
+
+Average aspect tetrahedra (std): 0.534391 (12.1419)
+Minimum aspect tetrahedra (450) = 0.118797
+Averaged connectivity: 11.5018
+Maximum connectivity (187) = 23
+Statistics after recovering the surface...:
+> 1120 vertices, 6441 edges, 10023 faces, 4955 elements (254 triangles) (4701 tetrahedra)
+> 	254 2D elements
+> 	4701 3D elements
+> Average edge length (std): 0.00463616 (0.156994)
+> Min edge length (450): 0.0005
+> 
+> Average volume (std): 8.1221e-09 (5.41758e-07)
+> Min. element volume (803): 7.8125e-11
+> 
+> Average aspect ratio tetrahedra (std): 0.534391 (12.1419)
+> Min. aspect tetrahedra (450): 0.118797
+> Average connectivity: 11.5018
+> Max. connectivity (187): 23
+> 
+> done. Time: 0.31715 secs.
+> Saving mesh `n8_msh' in TDR format...
+> Interpolating data ... done

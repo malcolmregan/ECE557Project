@@ -1,0 +1,8 @@
+02:38:58 Nov 28 2019 <Planar> submitted to the batch system
+02:38:59 Nov 28 2019     job 56 <sde> started on host 'grendel27.ece.ncsu.edu': "sde -l n56_dvs.cmd"
+02:39:39 Nov 28 2019 +++ job 56 <sde> done: exit(0)
+02:39:40 Nov 28 2019     job 57 <snmesh> started on host 'grendel27.ece.ncsu.edu': "snmesh "
+02:39:43 Nov 28 2019 +++ job 57 <snmesh> done: exit(0)
+02:39:44 Nov 28 2019     job 62 <sdevice> started on host 'grendel27.ece.ncsu.edu': "sdevice pp62_des.cmd"
+02:39:55 Nov 28 2019 +++ job 62 <sdevice> done: exit(0)
+02:39:58 Nov 28 2019 <Planar> done (60 sec)

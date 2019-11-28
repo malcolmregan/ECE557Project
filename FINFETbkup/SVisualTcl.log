@@ -2,23 +2,31 @@
 # Sentaurus Visual I-2013.12.
 # Tcl log file.
 #------------------------------------------
-# Date: Nov 26, 2019. 13:48:34.
+# Date: Nov 28, 2019. 03:57:57.
 # Version: 22.0.13 (1.13)
 # Mode: Interactive (GUI).
-# Hostname: grendel15.ece.ncsu.edu.
+# Hostname: grendel27.ece.ncsu.edu.
 # Machine: Linux, x86_64, amd64.
 # Kernel: 3.10.0-1062.1.2.el7.x86_64.
 ###########################################
 
 load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/FINFET/n8_msh.grd
-load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/FINFET/n3_des.tdr
-create_plot -dataset n3_des
-select_plots {Plot_n3_des}
-#-> Plot_n3_des
-#-> Plot_n3_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/FINFET/n3_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
 #-> n3_des
-set_field_prop -plot Plot_n3_des -geom n3_des Abs(TotalCurrentDensity-V) -show_bands
+create_curve -plot Plot_1 -dataset n3_des -axisX {G OuterVoltage} -axisY {D TotalCurrent}
+#-> Curve_1
+set_axis_prop -plot Plot_1 -axis y -type log
 #-> 0
-set_field_prop -plot Plot_n3_des -geom n3_des Abs(TotalCurrentDensity-V) -show
+set_axis_prop -plot Plot_1 -axis x -type log
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -type linear
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type log
 #-> 0
 exit 0

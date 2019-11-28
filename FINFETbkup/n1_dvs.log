@@ -1,0 +1,153 @@
+Evaluating file n1_dvs.cmd
+---> (define nm 0.001)
+nm
+---> (define Fw 5)
+Fw
+---> (define Fh 5)
+Fh
+---> (define Lg 15)
+Lg
+---> (define LSDC 15)
+LSDC
+---> (define LSD 15)
+LSD
+---> (define Tox 0.5)
+Tox
+---> (define x1 LSDC)
+x1
+---> (define x2 (+ x1 LSD))
+x2
+---> (define x3 (+ x2 Lg))
+x3
+---> (define x4 (+ x3 LSD))
+x4
+---> (define x5 (+ x4 LSDC))
+x5
+---> (define y1 Fw)
+y1
+---> (define y2 (+ y1 Tox))
+y2
+---> (define y3 (+ y2 10))
+y3
+---> (define z1 Fh)
+z1
+---> (define z2 (+ z1 Tox))
+z2
+---> (define C_Doping 1e+17)
+C_Doping
+---> (define SD_Doping 8e+19)
+SD_Doping
+---> (define SDC_Doping 8e+19)
+SDC_Doping
+---> (define B_Doping 5e+18)
+B_Doping
+---> ABA
+"ABA"
+---> (sdegeo:create-cuboid (position 0 0 0) (position x1 y1 z1) Silicon SourceC)
+#[body 5 1]
+---> (sdegeo:create-cuboid (position x1 0 0) (position x2 y1 z1) Silicon Source)
+#[body 6 1]
+---> (sdegeo:create-cuboid (position x2 (- Tox) 0) (position x3 y2 z2) SiO2 Gateoxide)
+#[body 7 1]
+---> (sdegeo:create-cuboid (position x2 0 0) (position x3 y1 z1) Silicon Channel)
+#[body 8 1]
+---> (sdegeo:create-cuboid (position x3 0 0) (position x4 y1 z1) Silicon Drain)
+#[body 9 1]
+---> (sdegeo:create-cuboid (position x4 0 0) (position x5 y1 z1) Silicon DrainC)
+#[body 10 1]
+---> (sdegeo:create-cuboid (position 0 (- 10) (- 20)) (position x5 y3 0) SiO2 Box)
+#[body 11 1]
+---> ABA
+"ABA"
+---> (sdegeo:create-cuboid (position 0 0 (- 20)) (position x5 y1 0) Silicon Body)
+#[body 12 1]
+---> (sdegeo:define-contact-set S 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:set-current-contact-set S)
+""
+---> (sdegeo:set-contact-faces (find-face-id (position 1 1 z1)))
+#t
+---> (sdegeo:define-contact-set D 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:set-current-contact-set D)
+"S"
+---> (sdegeo:set-contact-faces (find-face-id (position (+ x4 1) 1 z1)))
+#t
+---> (sdegeo:define-contact-set G 4.0 (color:rgb 1.0 0.0 0.0) ||)
+()
+---> (sdegeo:set-current-contact-set G)
+"D"
+---> (sdegeo:set-contact-faces (find-face-id (position (+ x2 1) (- Tox) 1)))
+#t
+---> (sdegeo:define-contact-set G 4.0 (color:rgb 1.0 0.0 0.0) ||)
+()
+---> (sdegeo:set-current-contact-set G)
+"G"
+---> (sdegeo:set-contact-faces (find-face-id (position (+ x2 1) 1 z2)))
+#t
+---> (sdegeo:define-contact-set G 4.0 (color:rgb 1.0 0.0 0.0) ||)
+()
+---> (sdegeo:set-current-contact-set G)
+"G"
+---> (sdegeo:set-contact-faces (find-face-id (position (+ x2 1) y2 1)))
+#t
+---> (sdegeo:define-contact-set B 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:set-current-contact-set B)
+"G"
+---> (sdegeo:set-contact-faces (find-face-id (position (* 0.5 x5) (* 0.5 y1) (- 20))))
+#t
+---> (sdedr:define-constant-profile dopedC BoronActiveConcentration C_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionC dopedC Channel)
+#t
+---> (sdedr:define-constant-profile dopedS ArsenicActiveConcentration SD_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionS dopedS Source)
+#t
+---> (sdedr:define-constant-profile dopedSC ArsenicActiveConcentration SDC_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionSC dopedSC SourceC)
+#t
+---> (sdedr:define-constant-profile dopedD ArsenicActiveConcentration SD_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionD dopedD Drain)
+#t
+---> (sdedr:define-constant-profile dopedDC ArsenicActiveConcentration SDC_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionDC dopedDC DrainC)
+#t
+---> (sdedr:define-constant-profile dopedB BoronActiveConcentration B_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionB dopedB Body)
+#t
+---> (sdedr:define-refinement-size Cha_Mesh 5 5 5 1 1 1)
+#t
+---> (sdedr:define-refinement-material channel_RF Cha_Mesh Silicon)
+#t
+---> (sdedr:define-refinement-window multiboxChannel Cuboid (position x1 0 0) (position x4 y1 z1))
+#[body 77 1]
+---> (sdedr:define-multibox-size multiboxSizeChannel 2 2 2 2 2 2)
+#t
+---> (sdedr:define-multibox-placement multiboxPlacementChannel multiboxSizeChannel multiboxChannel)
+#t
+---> (sdedr:define-refinement-function multiboxPlacementChannel DopingConcentration MaxTransDiff 1)
+#t
+---> (sde:assign-material-and-region-names (get-body-list))
+(#[body 5 1] #[body 6 1] #[body 7 1] #[body 8 1] #[body 9 1] #[body 10 1] #[body 11 1] #[body 12 1] #[body 86 1])
+---> (sdeio:save-tdr-bnd (get-body-list) n1_nm.tdr)
+#t
+---> (sdedr:write-scaled-cmd-file n1_msh.cmd nm)
+#t
+---> (define sde:scale-tdr-bnd (lambda (tdrin sf tdrout) (sde:clear) (sdegeo:set-default-boolean XX) (sdeio:read-tdr-bnd tdrin) (entity:scale (get-body-list) sf) (sdeio:save-tdr-bnd (get-body-list) tdrout)))
+sde:scale-tdr-bnd
+---> (sde:scale-tdr-bnd n1_nm.tdr nm n1_bnd.tdr)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Thu Nov 28 03:56:33 2019"
+"End   Time:    Thu Nov 28 03:56:37 2019"
+"Total Execution Time (sec):    4"
+"Total System calls Time (sec): 0"
+"************************************************************************"
