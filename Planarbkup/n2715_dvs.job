@@ -1,0 +1,56 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version I-2013.12                           ***
+***                            (1.7, RHEL64)                             ***
+***                                                                      ***
+***                Copyright (c) 1994-2013 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'grendel24.ece.ncsu.edu' by user 'mjregan2'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 2715 -swb_pid 17694 -gsub_pid 27661 -gsub_host grendel24.ece.ncsu.edu -gsub_port 41411 /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup'
+Current directory '/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup'
+Some relevant environment variables:
+	STROOT=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus
+	STRELEASE=current
+	STROOT_LIB=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib
+	STDB=/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj
+	DATEX=/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:10.0
+
+Project '/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup'
+Loading global tool database '/afs/eos.ncsu.edu/software/synopsys2014/sentaurus/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/gpref2_mjregan2.I-2013.12'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/gtree.dat'
+Loading jobs and dependence graph '"/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/gexec.cmd"'
+Loading project variables '/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/sde_dvs.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/sde_dvs.cmd fornode 2715
++++Preprocessing results written to /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/pp2715_dvs.cmd
+Start Simulation section
+13:16:19 Dec 06 2019     job 2715 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2715_dvs.cmd"
+13:16:53 Dec 06 2019 +++ job 2715 <sde> done: exit(0)
+End Simulation section
+Start Epilogue section
+13:16:53 Dec 06 2019 *** job 2715 pre/post execution: eval " gjob::find_extracted_vars "/afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup" n2715_dvs.out 2715 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

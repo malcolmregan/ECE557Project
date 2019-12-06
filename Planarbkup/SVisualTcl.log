@@ -2,60 +2,166 @@
 # Sentaurus Visual I-2013.12.
 # Tcl log file.
 #------------------------------------------
-# Date: Nov 28, 2019. 02:41:02.
+# Date: Dec 06, 2019. 13:37:36.
 # Version: 22.0.13 (1.13)
 # Mode: Interactive (GUI).
-# Hostname: grendel27.ece.ncsu.edu.
+# Hostname: grendel24.ece.ncsu.edu.
 # Machine: Linux, x86_64, amd64.
-# Kernel: 3.10.0-1062.1.2.el7.x86_64.
+# Kernel: 3.10.0-1062.7.1.el7.x86_64.
 ###########################################
 
-load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planar/n56_msh.grd
-load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planar/n62_des.plt
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1778_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1785_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3534_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2580_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2587_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3835_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1809_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1816_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3548_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2595_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2602_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3842_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1973_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1980_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3562_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2610_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2617_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3849_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2004_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2011_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3576_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2625_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2632_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3856_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2169_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2176_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3646_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2700_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2707_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3891_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2200_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2207_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3660_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2715_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2722_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3898_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2234_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2241_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3674_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2730_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2737_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3905_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2265_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2272_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3688_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2745_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2752_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3912_msh.grd
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1784_des.plt
 create_plot -1d
 select_plots {Plot_1}
 #-> Plot_1
 #-> Plot_1
-#-> n62_des
-load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planar/n62_des.tdr
-create_plot -dataset n62_des_2
-select_plots {Plot_n62_des_2}
-#-> Plot_n62_des_2
-#-> Plot_n62_des_2
-#-> n62_des_2
-select_plots {Plot_1}
-#-> Plot_1
-create_curve -plot Plot_1 -dataset n62_des -axisX {G OuterVoltage} -axisY {G TotalCurrent}
-#-> Curve_1
-remove_curves -plot Plot_1 Curve_1
-#-> Curve_1
-create_curve -plot Plot_1 -dataset n62_des -axisX {G OuterVoltage} -axisY {G InnerVoltage}
-#-> Curve_1
-remove_curves -plot Plot_1 Curve_1
-#-> Curve_1
-create_curve -plot Plot_1 -dataset n62_des -axisX {G OuterVoltage} -axisY {D TotalCurrent}
-#-> Curve_1
-set_axis_prop -plot Plot_1 -axis y -type log
-#-> 0
-zoom_plot -plot Plot_1 -factor 0.8
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 0.9
-zoom_plot -plot Plot_1 -factor 0.8
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 0.8
-zoom_plot -plot Plot_1 -factor 0.9
-zoom_plot -plot Plot_1 -factor 0.9
-zoom_plot -plot Plot_1 -factor 0.9
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 1.1
-zoom_plot -plot Plot_1 -factor 0.9
+#-> n1784_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1791_des.plt
+#-> n1791_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1815_des.plt
+#-> n1815_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1822_des.plt
+#-> n1822_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1979_des.plt
+#-> n1979_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n1986_des.plt
+#-> n1986_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2010_des.plt
+#-> n2010_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2017_des.plt
+#-> n2017_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2175_des.plt
+#-> n2175_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2182_des.plt
+#-> n2182_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2206_des.plt
+#-> n2206_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2213_des.plt
+#-> n2213_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2240_des.plt
+#-> n2240_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2247_des.plt
+#-> n2247_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2271_des.plt
+#-> n2271_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2278_des.plt
+#-> n2278_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2586_des.plt
+#-> n2586_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2593_des.plt
+#-> n2593_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2601_des.plt
+#-> n2601_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2608_des.plt
+#-> n2608_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2616_des.plt
+#-> n2616_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2623_des.plt
+#-> n2623_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2631_des.plt
+#-> n2631_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2638_des.plt
+#-> n2638_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2706_des.plt
+#-> n2706_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2713_des.plt
+#-> n2713_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2721_des.plt
+#-> n2721_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2728_des.plt
+#-> n2728_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2736_des.plt
+#-> n2736_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2743_des.plt
+#-> n2743_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2751_des.plt
+#-> n2751_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n2758_des.plt
+#-> n2758_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3540_des.plt
+#-> n3540_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3554_des.plt
+#-> n3554_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3568_des.plt
+#-> n3568_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3582_des.plt
+#-> n3582_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3652_des.plt
+#-> n3652_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3666_des.plt
+#-> n3666_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3680_des.plt
+#-> n3680_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3694_des.plt
+#-> n3694_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3841_des.plt
+#-> n3841_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3848_des.plt
+#-> n3848_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3855_des.plt
+#-> n3855_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3862_des.plt
+#-> n3862_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3897_des.plt
+#-> n3897_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3904_des.plt
+#-> n3904_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3911_des.plt
+#-> n3911_des
+load_file /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup/n3918_des.plt
+#-> n3918_des
+create_curve -plot Plot_1 -dataset {n3918_des n1784_des n1791_des n1815_des n1822_des n1979_des n1986_des n2010_des n2017_des n2175_des n2182_des n2206_des n2213_des n2240_des n2247_des n2271_des n2278_des n2586_des n2593_des n2601_des n2608_des n2616_des n2623_des n2631_des n2638_des n2706_des n2713_des n2721_des n2728_des n2736_des n2743_des n2751_des n2758_des n3540_des n3554_des n3568_des n3582_des n3652_des n3666_des n3680_des n3694_des n3841_des n3848_des n3855_des n3862_des n3897_des n3904_des n3911_des} -axisX {G OuterVoltage} -axisY {D TotalCurrent}
+#-> Curve_1 Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7 Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15 Curve_16 Curve_17 Curve_18 Curve_19 Curve_20 Curve_21 Curve_22 Curve_23 Curve_24 Curve_25 Curve_26 Curve_27 Curve_28 Curve_29 Curve_30 Curve_31 Curve_32 Curve_33 Curve_34 Curve_35 Curve_36 Curve_37 Curve_38 Curve_39 Curve_40 Curve_41 Curve_42 Curve_43 Curve_44 Curve_45 Curve_46 Curve_47 Curve_48
+zoom_plot -plot Plot_1 -window {0.966161 -6.31721e-05 1.02761 0.000722441}
+zoom_plot -plot Plot_1 -window {0.96621 0.000409124 1.02742 0.000598275}
+zoom_plot -plot Plot_1 -window {0.997842 0.000409124 1.00205 0.000597716}
+zoom_plot -plot Plot_1 -window {0.999001 0.000409681 1.00099 0.00054228}
 exit 0

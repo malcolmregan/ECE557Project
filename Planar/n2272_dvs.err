@@ -1,0 +1,4 @@
+libGL error: unable to load driver: swrast_dri.so
+libGL error: failed to load driver: swrast
+libGL error: unable to load driver: swrast_dri.so
+libGL error: failed to load driver: swrast

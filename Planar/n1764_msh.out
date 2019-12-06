@@ -1,0 +1,71 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version I-2013.12                           ***
+***                            (1.9, RHEL64)                             ***
+***                                                                      ***
+***                       Copyright (C) 2005-2014                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Jan 15 15:50:04 PST 2014 on: tcadprod8
+Running on: grendel25.ece.ncsu.edu
+Process ID: 1200
+
+Flags used:
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  75 (tree) + 90 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (0.024 -0)] at region=Source
+nVerts = 90  nTris = 96  nRegs = 11
+bmin: -0 -0.02
+bmax: 0.124 0.0141
+min area: 0.001375  max area: 0.01705  total area  : 0.5062 interface area: 0.19
+total volume: 0.0038266
+Conformal? true
+Are all boundaries on bbox? false
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (135 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+     113 points.
+     166 elements.
+      11 regions.
+Max. connectivity = 7 located at (0.0155;-0)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %       10  10   1  12  12   1  10  12  32                                
+---------------------------------------------------------------------------------
+minAngle: 7.82908  maxAngle: 90
+nVerts = 113  nTris = 166  nMats = 7
+max connectivity (tris per node): 7
+bmin: -0 -0.02
+bmax: 0.124 0.0141
+min edgeLength: 0.001375  [near (0.0496875 -0)]
+min volume: 2.02813e-06  max volume: 0.000132137  Total volume: 0.0038266
+bbox  volume: 0.0042284
+Are all boundaries on bbox? false
+=================================================================================
+Interpolating data...done.
+done.
+Saving file n1764_msh.tdr...done.

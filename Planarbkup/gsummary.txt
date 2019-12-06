@@ -1,23 +1,24 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary for /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planar
+Project Summary for /afs/unity.ncsu.edu/users/m/mjregan2/ECE557Proj/Planarbkup
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Project Details :
 		current status		: running
-		was last modified	: 11/28/2019 02:38:59
+		was last modified	: 12/06/2019 12:40:07
 		was modified by		: mjregan2
-		was run on host		: grendel27.ece.ncsu.edu
+		was run on host		: grendel24.ece.ncsu.edu
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Total Number of Nodes			: 12
+Total Number of Nodes			: 2212
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  
-		Active Nodes		: 3
-		Virtual Nodes		: 9
+		Active Nodes		: 870
+		Virtual Nodes		: 1342
  
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 Nodes by status				: 
-		done			: 3
+		none			: 675
+		done			: 195
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -28,14 +29,17 @@ Hosts and Execution Information
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  
-Host "grendel27.ece.ncsu.edu" 
-		Number of nodes		: 3
-		Host Time		: 43 sec
+Host "grendel24.ece.ncsu.edu" 
+		Number of nodes		: 96
+		Host Time		: 2441 sec
+Host "grendel25.ece.ncsu.edu" 
+		Number of nodes		: 99
+		Host Time		: 4593 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		Total RunTime		: 43 sec
+		Total RunTime		: 7034 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary generated on		: 11/28/2019 02:39:58
+Project Summary generated on		: 12/06/2019 13:34:38
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

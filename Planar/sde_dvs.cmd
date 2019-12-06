@@ -1,8 +1,8 @@
 ; parameter ;
 (define Lg @Lg@)
 (define tox @tox@)
-(define tac 100)
-(define Body 200)
+(define tac @tac@)
+(define Body @Body@)
 (define LSDC 24)
 (define LSD 25)
 (define C_Doping @C_Doping@)

@@ -1,8 +1,399 @@
-02:38:58 Nov 28 2019 <Planar> submitted to the batch system
-02:38:59 Nov 28 2019     job 56 <sde> started on host 'grendel27.ece.ncsu.edu': "sde -l n56_dvs.cmd"
-02:39:39 Nov 28 2019 +++ job 56 <sde> done: exit(0)
-02:39:40 Nov 28 2019     job 57 <snmesh> started on host 'grendel27.ece.ncsu.edu': "snmesh "
-02:39:43 Nov 28 2019 +++ job 57 <snmesh> done: exit(0)
-02:39:44 Nov 28 2019     job 62 <sdevice> started on host 'grendel27.ece.ncsu.edu': "sdevice pp62_des.cmd"
-02:39:55 Nov 28 2019 +++ job 62 <sdevice> done: exit(0)
-02:39:58 Nov 28 2019 <Planar> done (60 sec)
+23:12:17 Dec 05 2019 <Planar> submitted to the batch system
+23:12:19 Dec 05 2019     job 763 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n763_dvs.cmd"
+23:13:12 Dec 05 2019 +++ job 763 <sde> done: exit(0)
+23:13:13 Dec 05 2019     job 764 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+23:13:38 Dec 05 2019 +++ job 764 <snmesh> done: exit(0)
+23:13:39 Dec 05 2019     job 769 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp769_des.cmd"
+23:13:49 Dec 05 2019 +++ job 769 <sdevice> done: exit(0)
+23:13:51 Dec 05 2019 <Planar> done (94 sec)
+00:01:41 Dec 06 2019 <Planarbkup> submitted to the batch system
+00:01:49 Dec 06 2019     job 2154 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2154_dvs.cmd"
+00:04:57 Dec 06 2019 <Planarbkup> aborted: aborted
+00:11:58 Dec 06 2019 <Planarbkup> submitted to the batch system
+00:12:00 Dec 06 2019     job 1763 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1763_dvs.cmd"
+00:41:02 Dec 06 2019 +++ job 1763 <sde> done: exit(0)
+00:41:03 Dec 06 2019     job 1770 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1770_dvs.cmd"
+00:42:03 Dec 06 2019 +++ job 1770 <sde> done: exit(0)
+00:42:04 Dec 06 2019     job 1778 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1778_dvs.cmd"
+00:42:38 Dec 06 2019 +++ job 1778 <sde> done: exit(0)
+00:42:39 Dec 06 2019     job 1785 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1785_dvs.cmd"
+00:43:27 Dec 06 2019 +++ job 1785 <sde> done: exit(0)
+00:43:28 Dec 06 2019     job 1794 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1794_dvs.cmd"
+00:44:22 Dec 06 2019 +++ job 1794 <sde> done: exit(0)
+00:44:23 Dec 06 2019     job 1801 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1801_dvs.cmd"
+00:44:57 Dec 06 2019 +++ job 1801 <sde> done: exit(0)
+00:44:58 Dec 06 2019     job 1809 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1809_dvs.cmd"
+00:45:30 Dec 06 2019 +++ job 1809 <sde> done: exit(0)
+00:45:31 Dec 06 2019     job 1816 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1816_dvs.cmd"
+00:47:00 Dec 06 2019 +++ job 1816 <sde> done: exit(0)
+00:47:01 Dec 06 2019     job 1958 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1958_dvs.cmd"
+00:47:39 Dec 06 2019 +++ job 1958 <sde> done: exit(0)
+00:47:40 Dec 06 2019     job 1965 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1965_dvs.cmd"
+00:49:39 Dec 06 2019 +++ job 1965 <sde> done: exit(0)
+00:49:41 Dec 06 2019     job 1973 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1973_dvs.cmd"
+00:52:57 Dec 06 2019 +++ job 1973 <sde> done: exit(0)
+00:52:58 Dec 06 2019     job 1980 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1980_dvs.cmd"
+00:53:57 Dec 06 2019 +++ job 1980 <sde> done: exit(0)
+00:53:58 Dec 06 2019     job 1989 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1989_dvs.cmd"
+00:55:04 Dec 06 2019 +++ job 1989 <sde> done: exit(0)
+00:55:05 Dec 06 2019     job 1996 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n1996_dvs.cmd"
+00:55:53 Dec 06 2019 +++ job 1996 <sde> done: exit(0)
+00:55:54 Dec 06 2019     job 2004 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2004_dvs.cmd"
+00:57:00 Dec 06 2019 +++ job 2004 <sde> done: exit(0)
+00:57:01 Dec 06 2019     job 2011 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2011_dvs.cmd"
+00:58:04 Dec 06 2019 +++ job 2011 <sde> done: exit(0)
+00:58:05 Dec 06 2019     job 2154 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2154_dvs.cmd"
+01:16:09 Dec 06 2019 +++ job 2154 <sde> done: exit(0)
+01:16:10 Dec 06 2019     job 2161 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2161_dvs.cmd"
+01:16:56 Dec 06 2019 +++ job 2161 <sde> done: exit(0)
+01:16:57 Dec 06 2019     job 2169 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2169_dvs.cmd"
+01:18:18 Dec 06 2019 +++ job 2169 <sde> done: exit(0)
+01:18:19 Dec 06 2019     job 2176 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2176_dvs.cmd"
+01:19:09 Dec 06 2019 +++ job 2176 <sde> done: exit(0)
+01:19:10 Dec 06 2019     job 2185 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2185_dvs.cmd"
+01:20:12 Dec 06 2019 +++ job 2185 <sde> done: exit(0)
+01:20:13 Dec 06 2019     job 2192 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2192_dvs.cmd"
+01:21:18 Dec 06 2019 +++ job 2192 <sde> done: exit(0)
+01:21:19 Dec 06 2019     job 2200 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2200_dvs.cmd"
+01:22:25 Dec 06 2019 +++ job 2200 <sde> done: exit(0)
+01:22:26 Dec 06 2019     job 2207 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2207_dvs.cmd"
+01:23:42 Dec 06 2019 +++ job 2207 <sde> done: exit(0)
+01:23:43 Dec 06 2019     job 2219 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2219_dvs.cmd"
+01:24:25 Dec 06 2019 +++ job 2219 <sde> done: exit(0)
+01:24:26 Dec 06 2019     job 2226 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2226_dvs.cmd"
+01:25:05 Dec 06 2019 +++ job 2226 <sde> done: exit(0)
+01:25:06 Dec 06 2019     job 2234 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2234_dvs.cmd"
+01:26:34 Dec 06 2019 +++ job 2234 <sde> done: exit(0)
+01:26:35 Dec 06 2019     job 2241 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2241_dvs.cmd"
+01:27:59 Dec 06 2019 +++ job 2241 <sde> done: exit(0)
+01:28:00 Dec 06 2019     job 2250 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2250_dvs.cmd"
+01:28:56 Dec 06 2019 +++ job 2250 <sde> done: exit(0)
+01:28:57 Dec 06 2019     job 2257 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2257_dvs.cmd"
+01:29:56 Dec 06 2019 +++ job 2257 <sde> done: exit(0)
+01:29:57 Dec 06 2019     job 2265 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2265_dvs.cmd"
+01:31:39 Dec 06 2019 +++ job 2265 <sde> done: exit(0)
+01:31:40 Dec 06 2019     job 2272 <sde> started on host 'grendel25.ece.ncsu.edu': "sde -l n2272_dvs.cmd"
+01:32:12 Dec 06 2019 +++ job 2272 <sde> done: exit(0)
+01:32:13 Dec 06 2019     job 1764 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:20 Dec 06 2019 +++ job 1764 <snmesh> done: exit(0)
+01:32:21 Dec 06 2019     job 1771 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:23 Dec 06 2019 +++ job 1771 <snmesh> done: exit(0)
+01:32:24 Dec 06 2019     job 1779 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:26 Dec 06 2019 +++ job 1779 <snmesh> done: exit(0)
+01:32:27 Dec 06 2019     job 1786 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:29 Dec 06 2019 +++ job 1786 <snmesh> done: exit(0)
+01:32:30 Dec 06 2019     job 1795 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:32 Dec 06 2019 +++ job 1795 <snmesh> done: exit(0)
+01:32:33 Dec 06 2019     job 1802 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:35 Dec 06 2019 +++ job 1802 <snmesh> done: exit(0)
+01:32:36 Dec 06 2019     job 1810 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:38 Dec 06 2019 +++ job 1810 <snmesh> done: exit(0)
+01:32:39 Dec 06 2019     job 1817 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:41 Dec 06 2019 +++ job 1817 <snmesh> done: exit(0)
+01:32:42 Dec 06 2019     job 1959 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:32:44 Dec 06 2019 +++ job 1959 <snmesh> done: exit(0)
+01:32:45 Dec 06 2019     job 1966 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:10 Dec 06 2019 +++ job 1966 <snmesh> done: exit(0)
+01:33:11 Dec 06 2019     job 1974 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:13 Dec 06 2019 +++ job 1974 <snmesh> done: exit(0)
+01:33:14 Dec 06 2019     job 1981 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:16 Dec 06 2019 +++ job 1981 <snmesh> done: exit(0)
+01:33:17 Dec 06 2019     job 1990 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:25 Dec 06 2019 +++ job 1990 <snmesh> done: exit(0)
+01:33:26 Dec 06 2019     job 1997 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:28 Dec 06 2019 +++ job 1997 <snmesh> done: exit(0)
+01:33:29 Dec 06 2019     job 2005 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:31 Dec 06 2019 +++ job 2005 <snmesh> done: exit(0)
+01:33:32 Dec 06 2019     job 2012 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:34 Dec 06 2019 +++ job 2012 <snmesh> done: exit(0)
+01:33:35 Dec 06 2019     job 2155 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:37 Dec 06 2019 +++ job 2155 <snmesh> done: exit(0)
+01:33:38 Dec 06 2019     job 2162 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:40 Dec 06 2019 +++ job 2162 <snmesh> done: exit(0)
+01:33:41 Dec 06 2019     job 2170 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:43 Dec 06 2019 +++ job 2170 <snmesh> done: exit(0)
+01:33:44 Dec 06 2019     job 2177 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:46 Dec 06 2019 +++ job 2177 <snmesh> done: exit(0)
+01:33:47 Dec 06 2019     job 2186 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:49 Dec 06 2019 +++ job 2186 <snmesh> done: exit(0)
+01:33:50 Dec 06 2019     job 2193 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:52 Dec 06 2019 +++ job 2193 <snmesh> done: exit(0)
+01:33:53 Dec 06 2019     job 2201 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:56 Dec 06 2019 +++ job 2201 <snmesh> done: exit(0)
+01:33:57 Dec 06 2019     job 2208 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:33:59 Dec 06 2019 +++ job 2208 <snmesh> done: exit(0)
+01:34:00 Dec 06 2019     job 2220 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:02 Dec 06 2019 +++ job 2220 <snmesh> done: exit(0)
+01:34:03 Dec 06 2019     job 2227 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:05 Dec 06 2019 +++ job 2227 <snmesh> done: exit(0)
+01:34:06 Dec 06 2019     job 2235 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:08 Dec 06 2019 +++ job 2235 <snmesh> done: exit(0)
+01:34:09 Dec 06 2019     job 2242 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:16 Dec 06 2019 +++ job 2242 <snmesh> done: exit(0)
+01:34:17 Dec 06 2019     job 2251 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:19 Dec 06 2019 +++ job 2251 <snmesh> done: exit(0)
+01:34:20 Dec 06 2019     job 2258 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:22 Dec 06 2019 +++ job 2258 <snmesh> done: exit(0)
+01:34:23 Dec 06 2019     job 2266 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:25 Dec 06 2019 +++ job 2266 <snmesh> done: exit(0)
+01:34:26 Dec 06 2019     job 2273 <snmesh> started on host 'grendel25.ece.ncsu.edu': "snmesh "
+01:34:29 Dec 06 2019 +++ job 2273 <snmesh> done: exit(0)
+01:34:30 Dec 06 2019     job 1769 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1769_des.cmd"
+01:34:38 Dec 06 2019 +++ job 1769 <sdevice> done: exit(0)
+01:34:39 Dec 06 2019     job 1776 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1776_des.cmd"
+01:34:47 Dec 06 2019 +++ job 1776 <sdevice> done: exit(0)
+01:34:48 Dec 06 2019     job 1784 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1784_des.cmd"
+01:34:56 Dec 06 2019 +++ job 1784 <sdevice> done: exit(0)
+01:34:57 Dec 06 2019     job 1791 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1791_des.cmd"
+01:35:06 Dec 06 2019 +++ job 1791 <sdevice> done: exit(0)
+01:35:07 Dec 06 2019     job 1800 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1800_des.cmd"
+01:35:15 Dec 06 2019 +++ job 1800 <sdevice> done: exit(0)
+01:35:17 Dec 06 2019     job 1807 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1807_des.cmd"
+01:35:25 Dec 06 2019 +++ job 1807 <sdevice> done: exit(0)
+01:35:26 Dec 06 2019     job 1815 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1815_des.cmd"
+01:35:34 Dec 06 2019 +++ job 1815 <sdevice> done: exit(0)
+01:35:35 Dec 06 2019     job 1822 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1822_des.cmd"
+01:35:44 Dec 06 2019 +++ job 1822 <sdevice> done: exit(0)
+01:35:45 Dec 06 2019     job 1964 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1964_des.cmd"
+01:35:53 Dec 06 2019 +++ job 1964 <sdevice> done: exit(0)
+01:35:54 Dec 06 2019     job 1971 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1971_des.cmd"
+01:36:02 Dec 06 2019 +++ job 1971 <sdevice> done: exit(0)
+01:36:03 Dec 06 2019     job 1979 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1979_des.cmd"
+01:36:34 Dec 06 2019 +++ job 1979 <sdevice> done: exit(0)
+01:36:35 Dec 06 2019     job 1986 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1986_des.cmd"
+01:36:43 Dec 06 2019 +++ job 1986 <sdevice> done: exit(0)
+01:36:44 Dec 06 2019     job 1995 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp1995_des.cmd"
+01:36:52 Dec 06 2019 +++ job 1995 <sdevice> done: exit(0)
+01:36:53 Dec 06 2019     job 2002 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2002_des.cmd"
+01:37:01 Dec 06 2019 +++ job 2002 <sdevice> done: exit(0)
+01:37:02 Dec 06 2019     job 2010 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2010_des.cmd"
+01:37:59 Dec 06 2019 +++ job 2010 <sdevice> done: exit(0)
+01:38:00 Dec 06 2019     job 2017 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2017_des.cmd"
+01:38:08 Dec 06 2019 +++ job 2017 <sdevice> done: exit(0)
+01:38:09 Dec 06 2019     job 2160 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2160_des.cmd"
+01:38:18 Dec 06 2019 +++ job 2160 <sdevice> done: exit(0)
+01:38:19 Dec 06 2019     job 2167 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2167_des.cmd"
+01:38:27 Dec 06 2019 +++ job 2167 <sdevice> done: exit(0)
+01:38:28 Dec 06 2019     job 2175 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2175_des.cmd"
+01:38:36 Dec 06 2019 +++ job 2175 <sdevice> done: exit(0)
+01:38:37 Dec 06 2019     job 2182 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2182_des.cmd"
+01:38:46 Dec 06 2019 +++ job 2182 <sdevice> done: exit(0)
+01:38:47 Dec 06 2019     job 2191 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2191_des.cmd"
+01:38:55 Dec 06 2019 +++ job 2191 <sdevice> done: exit(0)
+01:38:56 Dec 06 2019     job 2198 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2198_des.cmd"
+01:39:04 Dec 06 2019 +++ job 2198 <sdevice> done: exit(0)
+01:39:05 Dec 06 2019     job 2206 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2206_des.cmd"
+01:39:13 Dec 06 2019 +++ job 2206 <sdevice> done: exit(0)
+01:39:14 Dec 06 2019     job 2213 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2213_des.cmd"
+01:39:46 Dec 06 2019 +++ job 2213 <sdevice> done: exit(0)
+01:39:47 Dec 06 2019     job 2225 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2225_des.cmd"
+01:39:56 Dec 06 2019 +++ job 2225 <sdevice> done: exit(0)
+01:39:57 Dec 06 2019     job 2232 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2232_des.cmd"
+01:40:05 Dec 06 2019 +++ job 2232 <sdevice> done: exit(0)
+01:40:06 Dec 06 2019     job 2240 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2240_des.cmd"
+01:40:14 Dec 06 2019 +++ job 2240 <sdevice> done: exit(0)
+01:40:15 Dec 06 2019     job 2247 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2247_des.cmd"
+01:40:46 Dec 06 2019 +++ job 2247 <sdevice> done: exit(0)
+01:40:47 Dec 06 2019     job 2256 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2256_des.cmd"
+01:41:18 Dec 06 2019 +++ job 2256 <sdevice> done: exit(0)
+01:41:19 Dec 06 2019     job 2263 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2263_des.cmd"
+01:41:27 Dec 06 2019 +++ job 2263 <sdevice> done: exit(0)
+01:41:28 Dec 06 2019     job 2271 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2271_des.cmd"
+01:41:36 Dec 06 2019 +++ job 2271 <sdevice> done: exit(0)
+01:41:37 Dec 06 2019     job 2278 <sdevice> started on host 'grendel25.ece.ncsu.edu': "sdevice pp2278_des.cmd"
+01:41:45 Dec 06 2019 +++ job 2278 <sdevice> done: exit(0)
+01:41:47 Dec 06 2019 <Planarbkup> done (5389 sec)
+12:40:05 Dec 06 2019 <Planarbkup> submitted to the batch system
+12:40:09 Dec 06 2019     job 3534 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3534_dvs.cmd"
+12:40:56 Dec 06 2019 +++ job 3534 <sde> done: exit(0)
+12:40:57 Dec 06 2019     job 2580 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2580_dvs.cmd"
+12:41:45 Dec 06 2019 +++ job 2580 <sde> done: exit(0)
+12:41:46 Dec 06 2019     job 2587 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2587_dvs.cmd"
+12:42:40 Dec 06 2019 +++ job 2587 <sde> done: exit(0)
+12:42:41 Dec 06 2019     job 3835 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3835_dvs.cmd"
+12:43:14 Dec 06 2019 +++ job 3835 <sde> done: exit(0)
+12:43:15 Dec 06 2019     job 3548 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3548_dvs.cmd"
+12:44:26 Dec 06 2019 +++ job 3548 <sde> done: exit(0)
+12:44:27 Dec 06 2019     job 2595 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2595_dvs.cmd"
+12:56:55 Dec 06 2019 +++ job 2595 <sde> done: exit(0)
+12:56:56 Dec 06 2019     job 2602 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2602_dvs.cmd"
+12:57:48 Dec 06 2019 +++ job 2602 <sde> done: exit(0)
+12:57:49 Dec 06 2019     job 3842 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3842_dvs.cmd"
+13:00:22 Dec 06 2019 +++ job 3842 <sde> done: exit(0)
+13:00:23 Dec 06 2019     job 3562 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3562_dvs.cmd"
+13:00:54 Dec 06 2019 +++ job 3562 <sde> done: exit(0)
+13:00:55 Dec 06 2019     job 2610 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2610_dvs.cmd"
+13:02:19 Dec 06 2019 +++ job 2610 <sde> done: exit(0)
+13:02:20 Dec 06 2019     job 2617 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2617_dvs.cmd"
+13:03:13 Dec 06 2019 +++ job 2617 <sde> done: exit(0)
+13:03:14 Dec 06 2019     job 3849 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3849_dvs.cmd"
+13:04:33 Dec 06 2019 +++ job 3849 <sde> done: exit(0)
+13:04:34 Dec 06 2019     job 3576 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3576_dvs.cmd"
+13:06:00 Dec 06 2019 +++ job 3576 <sde> done: exit(0)
+13:06:01 Dec 06 2019     job 2625 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2625_dvs.cmd"
+13:06:33 Dec 06 2019 +++ job 2625 <sde> done: exit(0)
+13:06:34 Dec 06 2019     job 2632 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2632_dvs.cmd"
+13:07:42 Dec 06 2019 +++ job 2632 <sde> done: exit(0)
+13:07:43 Dec 06 2019     job 3856 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3856_dvs.cmd"
+13:09:29 Dec 06 2019 +++ job 3856 <sde> done: exit(0)
+13:09:30 Dec 06 2019     job 3646 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3646_dvs.cmd"
+13:10:33 Dec 06 2019 +++ job 3646 <sde> done: exit(0)
+13:10:34 Dec 06 2019     job 2700 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2700_dvs.cmd"
+13:11:28 Dec 06 2019 +++ job 2700 <sde> done: exit(0)
+13:11:29 Dec 06 2019     job 2707 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2707_dvs.cmd"
+13:12:48 Dec 06 2019 +++ job 2707 <sde> done: exit(0)
+13:12:49 Dec 06 2019     job 3891 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3891_dvs.cmd"
+13:13:48 Dec 06 2019 +++ job 3891 <sde> done: exit(0)
+13:13:49 Dec 06 2019     job 3660 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3660_dvs.cmd"
+13:15:51 Dec 06 2019 +++ job 3660 <sde> done: exit(0)
+13:15:52 Dec 06 2019     job 2715 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2715_dvs.cmd"
+13:16:54 Dec 06 2019 +++ job 2715 <sde> done: exit(0)
+13:16:55 Dec 06 2019     job 2722 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2722_dvs.cmd"
+13:17:46 Dec 06 2019 +++ job 2722 <sde> done: exit(0)
+13:17:47 Dec 06 2019     job 3898 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3898_dvs.cmd"
+13:18:24 Dec 06 2019 +++ job 3898 <sde> done: exit(0)
+13:18:25 Dec 06 2019     job 3674 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3674_dvs.cmd"
+13:18:52 Dec 06 2019 +++ job 3674 <sde> done: exit(0)
+13:18:53 Dec 06 2019     job 2730 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2730_dvs.cmd"
+13:19:26 Dec 06 2019 +++ job 2730 <sde> done: exit(0)
+13:19:27 Dec 06 2019     job 2737 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2737_dvs.cmd"
+13:20:23 Dec 06 2019 +++ job 2737 <sde> done: exit(0)
+13:20:24 Dec 06 2019     job 3905 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3905_dvs.cmd"
+13:20:51 Dec 06 2019 +++ job 3905 <sde> done: exit(0)
+13:20:52 Dec 06 2019     job 3688 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3688_dvs.cmd"
+13:21:22 Dec 06 2019 +++ job 3688 <sde> done: exit(0)
+13:21:23 Dec 06 2019     job 2745 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2745_dvs.cmd"
+13:22:20 Dec 06 2019 +++ job 2745 <sde> done: exit(0)
+13:22:21 Dec 06 2019     job 2752 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n2752_dvs.cmd"
+13:22:50 Dec 06 2019 +++ job 2752 <sde> done: exit(0)
+13:22:51 Dec 06 2019     job 3912 <sde> started on host 'grendel24.ece.ncsu.edu': "sde -l n3912_dvs.cmd"
+13:23:27 Dec 06 2019 +++ job 3912 <sde> done: exit(0)
+13:23:28 Dec 06 2019     job 3535 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:23:53 Dec 06 2019 +++ job 3535 <snmesh> done: exit(0)
+13:23:54 Dec 06 2019     job 2581 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:23:56 Dec 06 2019 +++ job 2581 <snmesh> done: exit(0)
+13:23:57 Dec 06 2019     job 2588 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:23:59 Dec 06 2019 +++ job 2588 <snmesh> done: exit(0)
+13:24:00 Dec 06 2019     job 3836 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:24:47 Dec 06 2019 +++ job 3836 <snmesh> done: exit(0)
+13:24:48 Dec 06 2019     job 3549 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:24:50 Dec 06 2019 +++ job 3549 <snmesh> done: exit(0)
+13:24:51 Dec 06 2019     job 2596 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:24:53 Dec 06 2019 +++ job 2596 <snmesh> done: exit(0)
+13:24:54 Dec 06 2019     job 2603 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:24:56 Dec 06 2019 +++ job 2603 <snmesh> done: exit(0)
+13:24:57 Dec 06 2019     job 3843 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:24:59 Dec 06 2019 +++ job 3843 <snmesh> done: exit(0)
+13:25:00 Dec 06 2019     job 3563 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:02 Dec 06 2019 +++ job 3563 <snmesh> done: exit(0)
+13:25:03 Dec 06 2019     job 2611 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:05 Dec 06 2019 +++ job 2611 <snmesh> done: exit(0)
+13:25:06 Dec 06 2019     job 2618 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:08 Dec 06 2019 +++ job 2618 <snmesh> done: exit(0)
+13:25:09 Dec 06 2019     job 3850 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:11 Dec 06 2019 +++ job 3850 <snmesh> done: exit(0)
+13:25:12 Dec 06 2019     job 3577 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:14 Dec 06 2019 +++ job 3577 <snmesh> done: exit(0)
+13:25:15 Dec 06 2019     job 2626 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:39 Dec 06 2019 +++ job 2626 <snmesh> done: exit(0)
+13:25:40 Dec 06 2019     job 2633 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:42 Dec 06 2019 +++ job 2633 <snmesh> done: exit(0)
+13:25:43 Dec 06 2019     job 3857 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:45 Dec 06 2019 +++ job 3857 <snmesh> done: exit(0)
+13:25:46 Dec 06 2019     job 3647 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:48 Dec 06 2019 +++ job 3647 <snmesh> done: exit(0)
+13:25:49 Dec 06 2019     job 2701 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:51 Dec 06 2019 +++ job 2701 <snmesh> done: exit(0)
+13:25:52 Dec 06 2019     job 2708 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:54 Dec 06 2019 +++ job 2708 <snmesh> done: exit(0)
+13:25:55 Dec 06 2019     job 3892 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:25:57 Dec 06 2019 +++ job 3892 <snmesh> done: exit(0)
+13:25:58 Dec 06 2019     job 3661 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:26:00 Dec 06 2019 +++ job 3661 <snmesh> done: exit(0)
+13:26:01 Dec 06 2019     job 2716 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:26:03 Dec 06 2019 +++ job 2716 <snmesh> done: exit(0)
+13:26:04 Dec 06 2019     job 2723 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:26:06 Dec 06 2019 +++ job 2723 <snmesh> done: exit(0)
+13:26:07 Dec 06 2019     job 3899 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:26:09 Dec 06 2019 +++ job 3899 <snmesh> done: exit(0)
+13:26:10 Dec 06 2019     job 3675 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:02 Dec 06 2019 +++ job 3675 <snmesh> done: exit(0)
+13:27:03 Dec 06 2019     job 2731 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:08 Dec 06 2019 +++ job 2731 <snmesh> done: exit(0)
+13:27:09 Dec 06 2019     job 2738 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:14 Dec 06 2019 +++ job 2738 <snmesh> done: exit(0)
+13:27:16 Dec 06 2019     job 3906 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:19 Dec 06 2019 +++ job 3906 <snmesh> done: exit(0)
+13:27:21 Dec 06 2019     job 3689 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:25 Dec 06 2019 +++ job 3689 <snmesh> done: exit(0)
+13:27:27 Dec 06 2019     job 2746 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:28 Dec 06 2019 +++ job 2746 <snmesh> done: exit(0)
+13:27:30 Dec 06 2019     job 2753 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:37 Dec 06 2019 +++ job 2753 <snmesh> done: exit(0)
+13:27:38 Dec 06 2019     job 3913 <snmesh> started on host 'grendel24.ece.ncsu.edu': "snmesh "
+13:27:41 Dec 06 2019 +++ job 3913 <snmesh> done: exit(0)
+13:27:42 Dec 06 2019     job 3540 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3540_des.cmd"
+13:27:48 Dec 06 2019 +++ job 3540 <sdevice> done: exit(0)
+13:27:49 Dec 06 2019     job 2586 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2586_des.cmd"
+13:27:55 Dec 06 2019 +++ job 2586 <sdevice> done: exit(0)
+13:27:56 Dec 06 2019     job 2593 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2593_des.cmd"
+13:28:03 Dec 06 2019 +++ job 2593 <sdevice> done: exit(0)
+13:28:04 Dec 06 2019     job 3841 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3841_des.cmd"
+13:28:11 Dec 06 2019 +++ job 3841 <sdevice> done: exit(0)
+13:28:12 Dec 06 2019     job 3554 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3554_des.cmd"
+13:28:41 Dec 06 2019 +++ job 3554 <sdevice> done: exit(0)
+13:28:42 Dec 06 2019     job 2601 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2601_des.cmd"
+13:28:49 Dec 06 2019 +++ job 2601 <sdevice> done: exit(0)
+13:28:50 Dec 06 2019     job 2608 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2608_des.cmd"
+13:28:58 Dec 06 2019 +++ job 2608 <sdevice> done: exit(0)
+13:28:59 Dec 06 2019     job 3848 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3848_des.cmd"
+13:29:06 Dec 06 2019 +++ job 3848 <sdevice> done: exit(0)
+13:29:07 Dec 06 2019     job 3568 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3568_des.cmd"
+13:29:37 Dec 06 2019 +++ job 3568 <sdevice> done: exit(0)
+13:29:38 Dec 06 2019     job 2616 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2616_des.cmd"
+13:29:45 Dec 06 2019 +++ job 2616 <sdevice> done: exit(0)
+13:29:46 Dec 06 2019     job 2623 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2623_des.cmd"
+13:29:53 Dec 06 2019 +++ job 2623 <sdevice> done: exit(0)
+13:29:54 Dec 06 2019     job 3855 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3855_des.cmd"
+13:30:01 Dec 06 2019 +++ job 3855 <sdevice> done: exit(0)
+13:30:02 Dec 06 2019     job 3582 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3582_des.cmd"
+13:30:11 Dec 06 2019 +++ job 3582 <sdevice> done: exit(0)
+13:30:12 Dec 06 2019     job 2631 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2631_des.cmd"
+13:30:19 Dec 06 2019 +++ job 2631 <sdevice> done: exit(0)
+13:30:20 Dec 06 2019     job 2638 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2638_des.cmd"
+13:30:27 Dec 06 2019 +++ job 2638 <sdevice> done: exit(0)
+13:30:28 Dec 06 2019     job 3862 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3862_des.cmd"
+13:30:35 Dec 06 2019 +++ job 3862 <sdevice> done: exit(0)
+13:30:36 Dec 06 2019     job 3652 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3652_des.cmd"
+13:30:44 Dec 06 2019 +++ job 3652 <sdevice> done: exit(0)
+13:30:45 Dec 06 2019     job 2706 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2706_des.cmd"
+13:30:52 Dec 06 2019 +++ job 2706 <sdevice> done: exit(0)
+13:30:53 Dec 06 2019     job 2713 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2713_des.cmd"
+13:31:00 Dec 06 2019 +++ job 2713 <sdevice> done: exit(0)
+13:31:01 Dec 06 2019     job 3897 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3897_des.cmd"
+13:31:07 Dec 06 2019 +++ job 3897 <sdevice> done: exit(0)
+13:31:08 Dec 06 2019     job 3666 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3666_des.cmd"
+13:31:37 Dec 06 2019 +++ job 3666 <sdevice> done: exit(0)
+13:31:38 Dec 06 2019     job 2721 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2721_des.cmd"
+13:31:44 Dec 06 2019 +++ job 2721 <sdevice> done: exit(0)
+13:31:45 Dec 06 2019     job 2728 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2728_des.cmd"
+13:31:52 Dec 06 2019 +++ job 2728 <sdevice> done: exit(0)
+13:31:53 Dec 06 2019     job 3904 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3904_des.cmd"
+13:32:00 Dec 06 2019 +++ job 3904 <sdevice> done: exit(0)
+13:32:01 Dec 06 2019     job 3680 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3680_des.cmd"
+13:32:11 Dec 06 2019 +++ job 3680 <sdevice> done: exit(0)
+13:32:12 Dec 06 2019     job 2736 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2736_des.cmd"
+13:32:19 Dec 06 2019 +++ job 2736 <sdevice> done: exit(0)
+13:32:20 Dec 06 2019     job 2743 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2743_des.cmd"
+13:32:28 Dec 06 2019 +++ job 2743 <sdevice> done: exit(0)
+13:32:29 Dec 06 2019     job 3911 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3911_des.cmd"
+13:32:36 Dec 06 2019 +++ job 3911 <sdevice> done: exit(0)
+13:32:37 Dec 06 2019     job 3694 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3694_des.cmd"
+13:32:44 Dec 06 2019 +++ job 3694 <sdevice> done: exit(0)
+13:32:45 Dec 06 2019     job 2751 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2751_des.cmd"
+13:32:51 Dec 06 2019 +++ job 2751 <sdevice> done: exit(0)
+13:32:52 Dec 06 2019     job 2758 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp2758_des.cmd"
+13:33:44 Dec 06 2019 +++ job 2758 <sdevice> done: exit(0)
+13:33:45 Dec 06 2019     job 3918 <sdevice> started on host 'grendel24.ece.ncsu.edu': "sdevice pp3918_des.cmd"
+13:34:36 Dec 06 2019 +++ job 3918 <sdevice> done: exit(0)
+13:34:38 Dec 06 2019 <Planarbkup> done (3273 sec)

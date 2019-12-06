@@ -1,0 +1,125 @@
+Evaluating file n2632_dvs.cmd
+---> (define Lg 26)
+Lg
+---> (define tox 4.1)
+tox
+---> (define tac 10)
+tac
+---> (define Body 30)
+Body
+---> (define LSDC 24)
+LSDC
+---> (define LSD 25)
+LSD
+---> (define C_Doping 5e+19)
+C_Doping
+---> (define D_Doping 1e+21)
+D_Doping
+---> (define S_Doping 1e+21)
+S_Doping
+---> (define B_Doping 5e+18)
+B_Doping
+---> (define nm 0.001)
+nm
+---> (define x1 LSDC)
+x1
+---> (define x2 (+ x1 LSD))
+x2
+---> (define x3 (+ x2 Lg))
+x3
+---> (define x4 (+ x3 LSD))
+x4
+---> (define x5 (+ x4 LSDC))
+x5
+---> (define y1 (- Body))
+y1
+---> (define y2 tac)
+y2
+---> (define y3 (+ tac tox))
+y3
+---> ABA
+"ABA"
+---> (sdegeo:create-rectangle (position 0 0 0) (position x1 y2 0) Silicon SourceC)
+#[body 5 1]
+---> (sdegeo:create-rectangle (position x1 0 0) (position x2 y2 0) Silicon Source)
+#[body 6 1]
+---> (sdegeo:create-rectangle (position x2 0 0) (position x3 y2 0) Silicon Channel)
+#[body 7 1]
+---> (sdegeo:create-rectangle (position x3 0 0) (position x4 y2 0) Silicon Drain)
+#[body 8 1]
+---> (sdegeo:create-rectangle (position x4 0 0) (position x5 y2 0) Silicon DrainC)
+#[body 9 1]
+---> (sdegeo:create-rectangle (position 0 0 0) (position x5 y1 0) Silicon Body)
+#[body 10 1]
+---> (sdegeo:create-rectangle (position x2 y2 0) (position x3 y3 0) HfO2 Gateoxide)
+#[body 11 1]
+---> (sdegeo:define-contact-set G 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ x2 (/ Lg 2)) y3 0)) G)
+()
+---> (sdegeo:define-contact-set S 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 10 tac 0)) S)
+()
+---> (sdegeo:define-contact-set D 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ 50 Lg 35) tac 0)) D)
+()
+---> (sdegeo:define-contact-set substrate 4.0 (color:rgb 1.0 0.0 0.0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ x2 (/ Lg 2)) (- Body) 0)) substrate)
+()
+---> (sdedr:define-constant-profile dopedC BoronActiveConcentration C_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionC dopedC Channel)
+#t
+---> (sdedr:define-constant-profile dopedS PhosphorusActiveConcentration S_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionS dopedS Source)
+#t
+---> (sdedr:define-constant-profile dopedSC PhosphorusActiveConcentration S_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionSC dopedSC SourceC)
+#t
+---> (sdedr:define-constant-profile dopedD PhosphorusActiveConcentration D_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionD dopedD Drain)
+#t
+---> (sdedr:define-constant-profile dopedDC PhosphorusActiveConcentration D_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionDC dopedDC DrainC)
+#t
+---> (sdedr:define-constant-profile dopedB BoronActiveConcentration B_Doping)
+#t
+---> (sdedr:define-constant-profile-region RegionB dopedB Body)
+#t
+---> (sdedr:define-refinement-size Cha_Mesh 20 20 0 10 10 0)
+#t
+---> (sdedr:define-refinement-material channel_RF Cha_Mesh Silicon)
+#t
+---> (sdedr:define-refinement-window multiboxChannel Rectangle (position 25 (- 50) 0) (position (+ 50 Lg 25) (+ tac 50) 0))
+#[body 44 1]
+---> (sdedr:define-multibox-size multiboxSizeChannel 5 5 0 1 1 0)
+#t
+---> (sdedr:define-multibox-placement multiboxPlacementChannel multiboxSizeChannel multiboxChannel)
+#t
+---> (sdedr:define-refinement-function multiboxPlacementChannel DopingConcentration MaxTransDiff 1)
+#t
+---> (sde:assign-material-and-region-names (get-body-list))
+(#[body 5 1] #[body 6 1] #[body 7 1] #[body 8 1] #[body 9 1] #[body 10 1] #[body 11 1])
+---> (sdeio:save-tdr-bnd (get-body-list) n2632_nm.tdr)
+#t
+---> (sdedr:write-scaled-cmd-file n2632_msh.cmd nm)
+#t
+---> (define sde:scale-tdr-bnd (lambda (tdrin sf tdrout) (sde:clear) (sdegeo:set-default-boolean XX) (sdeio:read-tdr-bnd tdrin) (entity:scale (get-body-list) sf) (sdeio:save-tdr-bnd (get-body-list) tdrout)))
+sde:scale-tdr-bnd
+---> (sde:scale-tdr-bnd n2632_nm.tdr nm n2632_bnd.tdr)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Dec  6 13:07:05 2019"
+"End   Time:    Fri Dec  6 13:07:05 2019"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"
